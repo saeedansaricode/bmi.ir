@@ -14,7 +14,6 @@ header{
     border-bottom: 4px solid #dc3c00;
 }
 .header {
-    border: 1px solid gray;
     width: 80%;
     margin: 0 auto;
     height: 90px;
@@ -41,9 +40,9 @@ header{
 }
 .searchbox {
     display: flex;
-    width: 310px;
+    width: 289px;
     height: 13px;
-    padding: 6px 6px;
+    padding: 6px 12px;
     border-radius: 5px;
     margin-top: 15px;
     margin-right: 20px;
@@ -95,11 +94,6 @@ header{
 .item6 {
     border: none;
 }
-
-/* .left-top {
-    border: 1px solid gray;
-} */
-
 .header-left-top-items {
     font-size: 10px;
     text-decoration: none;
@@ -129,4 +123,14 @@ header{
 .flag {
     width: 27px;
     height: 35px;
+}
+
+.app-section{
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+.apps{
+    padding-right: 12px;
 }
