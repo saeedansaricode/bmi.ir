@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+@font-face {
+    font-family: "IRANsans";
+    src: url(./font/iransansweb.woff2) format("woff2");
+}
+
+header{
+    border-bottom: 4px solid #dc3c00;
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    height: 94px;
+    display: flex;
+}
+
+.logo-svg {
+    width: 177px;
+    height: 76px;
+    margin: 5px 0px 0px 27px;
+}
+
+.middle-top {
+    width: 604.19px;
+    height: 50.28px;
+    line-height: 50.28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbox:hover{
+    outline: none;
+}
+.searchbox {
+    display: flex;
+    width: 310px;
+    height: 13px;
+    padding: 6px 6px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 1px solid #d7d7d7;
+    justify-content: space-between;
+}
+.input {
+    width: 289px;
+    height: 14px;
+    border: none;
+    outline: none;
+    font-size: 11px;
+    color: #999;
+    font-family: IRANsans;
+}
+
+.searchicon{
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.baamentry {
+    width: 213px;
+    height: 44px;
+    cursor: pointer;
+}
+
+
+.middle-bottom{
+    width: 764px;
+    height: 40px;
+    justify-content: right;
+}
+
+.items:hover{
+    color: #dc3c00;
+}
+.items{
+    font-size: 12px;
+    font-family: IRANsans;
+    padding: 0px 10px;
+    color: #333333;
+    line-height: 40px;
+    border-left: 1px solid #d7d7d7;
+    cursor: pointer;
+}
+
+.item6 {
+    border: none;
+}
