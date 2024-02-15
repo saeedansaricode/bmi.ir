@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     direction: rtl;
+    font-family: "IRANsans";
 }
 @font-face {
     font-family: "IRANsans";
@@ -13,16 +14,18 @@ header{
     border-bottom: 4px solid #dc3c00;
 }
 .header {
+    border: 1px solid gray;
     width: 80%;
     margin: 0 auto;
-    height: 94px;
+    height: 90px;
     display: flex;
+    justify-content: space-between;
 }
 
 .logo-svg {
     width: 177px;
     height: 76px;
-    margin: 5px 0px 0px 27px;
+    margin: 5px 0px 0px 28px;
 }
 
 .middle-top {
@@ -71,7 +74,8 @@ header{
 
 
 .middle-bottom{
-    width: 764px;
+    direction: rtl;
+    width: 600px;
     height: 40px;
     justify-content: right;
 }
@@ -81,8 +85,7 @@ header{
 }
 .items{
     font-size: 12px;
-    font-family: IRANsans;
-    padding: 0px 10px;
+    padding: 0px 8px;
     color: #333333;
     line-height: 40px;
     border-left: 1px solid #d7d7d7;
@@ -91,4 +94,39 @@ header{
 
 .item6 {
     border: none;
+}
+
+/* .left-top {
+    border: 1px solid gray;
+} */
+
+.header-left-top-items {
+    font-size: 10px;
+    text-decoration: none;
+    color: #ffbb00;
+    padding:0 6px;
+    position: relative;
+    top: -10px;
+
+}
+.header-left-top-items:hover{
+    color: #428bca;
+    text-decoration: underline;
+}
+.date{
+    position: relative;
+    top: -10px;
+    font-size: 10px;
+    color: #db873d;
+    padding: 0 0 0 6px;
+
+    
+}
+.arabi{
+    border-left: 1px solid #db873d;
+    border-right: 1px solid #db873d;
+}
+.flag {
+    width: 27px;
+    height: 35px;
 }
