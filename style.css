@@ -187,3 +187,58 @@ header{
 
 
 /* ---- slide show ---- */
+
+
+
+.slideshow {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* ---- blue line ---- */
+
+.blueline{
+    height: 253px;
+    background-color: #428bca;
+    position: relative;
+    top: 449px;
+}
+
+
+/* ---- cards ---- */
+
+
+
+.cards-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container > div {
+    height: 200px;
+    background-color: gray;
+}
+.cards-container > .cards-item >  .card-list > ul {
+    background-color: #0054a2;
+    height: 240px;
+    width: 260px;
+    padding-top: 13px;
+    position: relative;
+    top: -30px;
+}
+.cards-container > .cards-item >  .card-list > ul > li {
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+}
+.cards-container > .cards-item >  .card-list > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+.cards-container > .cards-item >  .card-list > ul > li > a:hover {
+    text-decoration: underline;
+}
