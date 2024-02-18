@@ -242,3 +242,83 @@ header{
 .cards-container > .cards-item >  .card-list > ul > li > a:hover {
     text-decoration: underline;
 }
+
+
+/* ---- section ---- */
+
+
+
+.section{
+    background: url(./img/page-background.png);
+    color: #222;
+    position: relative;
+    top: 230px;
+}
+
+.section > .section-container {
+    padding: 10px 0;
+    width: 80%;
+    height: 230px;
+    margin: 0 auto;
+}
+.section > .section-container > h3 {
+    color: #53555c;
+}
+    
+.section > .section-container > .section-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.section > .section-container > .section-row > .section-card {
+    width: 360px;
+    height: 120px;
+    display: flex;
+}
+.section > .section-container > .section-row > .section-card > a {
+    width: 224px;
+    height: 88px;
+    line-height: 28px;
+    font-size: 13px;
+    text-align: justify;
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+}
+.section > .section-container > .section-row > .section-card > .section-card-buttom{
+    background-image: url(./img/in-press.png);
+    position: absolute;
+    top: 160px;
+    width: 120px;
+    height: 32px;
+    transition: 0.5s ease;
+}
+.section > .section-container > .section-row > .section-card > .section-card-buttom:hover{
+    background-position-y: -35px;
+}
+
+.section > .section-container > .section-row > .section-card > a:hover{
+    color: #4f8db3;
+    transition: 0.25s linear;
+}
+
+.section-pic {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    box-shadow: inset 0 1px #fff, 0 1px 2px #7283BC;
+}
+
+.section > .section-container > .section-portal-buttom{
+    margin-top: 10px;
+    float: left;
+    width: 227px;
+    height: 32px;
+    background-image: url(./img/a-left.png) ;
+    transition: 0.3s ease;
+}
+.section > .section-container > .section-portal-buttom:hover{
+    background-position-y: -35px;
+}
+
