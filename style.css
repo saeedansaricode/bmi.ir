@@ -10,22 +10,36 @@ body{
     src: url(./font/iransansweb.woff2) format("woff2");
 }
 
+
+/* ---- header section ---- */
+
+
 header{
     border-bottom: 4px solid #dc3c00;
 }
+
+/* ---- header ---- */
+
+
 .header {
     width: 80%;
     margin: 0 auto;
     height: 90px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
+
+/* ---- header right ---- */
+
 
 .logo-svg {
     width: 177px;
     height: 76px;
     margin: 5px 0px 0px 28px;
 }
+
+/* ---- header middle top ---- */
 
 .middle-top {
     width: 604.19px;
@@ -35,9 +49,11 @@ header{
     justify-content: space-between;
 }
 
-.searchbox:hover{
-    outline: none;
-}
+
+
+/*----- search box ---- */
+
+
 .searchbox {
     display: flex;
     width: 289px;
@@ -49,6 +65,13 @@ header{
     border: 1px solid #d7d7d7;
     justify-content: space-between;
 }
+
+.searchbox:hover{
+    outline: none;
+}
+
+/* ---- search box input ---- */
+
 .input {
     width: 289px;
     height: 14px;
@@ -71,6 +94,7 @@ header{
     cursor: pointer;
 }
 
+/* ---- menu of header middle bottom ---- */
 
 .middle-bottom{
     direction: rtl;
@@ -79,9 +103,6 @@ header{
     justify-content: right;
 }
 
-.items:hover{
-    color: #dc3c00;
-}
 .items{
     font-size: 12px;
     padding: 0px 8px;
@@ -94,6 +115,32 @@ header{
 .item6 {
     border: none;
 }
+
+/* megamenu for menu middle of header */
+
+.items > .megamenu{
+    top: 85px;
+    right: 0px;
+    width: 0%;
+    height: 0px;
+    position: absolute;
+    background-color: #428bca;
+    border-bottom: 5px solid rgb(170, 126, 16);
+}
+
+.items:hover{
+    background-color: #428bca;
+    color: #fff;
+}
+.items:hover > .megamenu{
+    width: 100%;
+    height: 500px;
+
+}
+
+/* ---- header left bottom ---- */
+
+
 .header-left-top-items {
     font-size: 10px;
     text-decoration: none;
@@ -125,6 +172,8 @@ header{
     height: 35px;
 }
 
+
+/* ---- header left bottom ---- */
 .app-section{
     height: 40px;
     display: flex;
@@ -134,3 +183,7 @@ header{
 .apps{
     padding-right: 12px;
 }
+
+
+
+/* ---- slide show ---- */
