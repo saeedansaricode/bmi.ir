@@ -327,19 +327,19 @@ header{
 /* ---- Section Two ---- */
 
 .section-two {
-    border: 1px solid black;
     position: relative;
     top: 230px;
 }
 .section-two > .sec-cont{
     width: 80%;
     margin: 30px auto;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .section-two > .sec-cont > .sec-card{
-    width: 50%;
+    width: 48%;
     border: 1px solid black;
 }
 .section-two > .sec-cont > .sec-card a{
@@ -370,4 +370,34 @@ header{
     width: 20px;
     height: 20px;
     padding-right: 10px;
+}
+
+/* ---- Section Orange ---- */
+
+.section-orange{
+    position: relative;
+    top: 230px;
+    height: 125px;
+    background-color: #dc3c00;
+}
+.section-orange > .sec-orange-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.section-orange > .sec-orange-cont > .sec-org-card {
+    width: 25%;
+}
+.section-orange > .sec-orange-cont > .sec-org-card img{
+    vertical-align: middle;
+}
+.section-orange > .sec-orange-cont > .sec-org-card a{
+    padding-right: 5px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.section-orange > .sec-orange-cont > .sec-org-card a:hover {
+    text-decoration: underline;
 }
