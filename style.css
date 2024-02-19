@@ -244,38 +244,38 @@ header{
 }
 
 
-/* ---- section ---- */
+/* ---- Section One---- */
 
 
 
-.section{
+.section-one{
     background: url(./img/page-background.png);
     color: #222;
     position: relative;
     top: 230px;
 }
 
-.section > .section-container {
+.section-one > .section-container {
     padding: 10px 0;
     width: 80%;
     height: 230px;
     margin: 0 auto;
 }
-.section > .section-container > h3 {
+.section-one > .section-container > h3 {
     color: #53555c;
 }
     
-.section > .section-container > .section-row {
+.section-one > .section-container > .section-row {
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
 }
-.section > .section-container > .section-row > .section-card {
+.section-one > .section-container > .section-row > .section-card {
     width: 360px;
     height: 120px;
     display: flex;
 }
-.section > .section-container > .section-row > .section-card > a {
+.section-one > .section-container > .section-row > .section-card > a {
     width: 224px;
     height: 88px;
     line-height: 28px;
@@ -285,7 +285,7 @@ header{
     color: #000;
     padding-left: 10px;
 }
-.section > .section-container > .section-row > .section-card > .section-card-buttom{
+.section-one > .section-container > .section-row > .section-card > .section-card-buttom{
     background-image: url(./img/in-press.png);
     position: absolute;
     top: 160px;
@@ -293,11 +293,11 @@ header{
     height: 32px;
     transition: 0.5s ease;
 }
-.section > .section-container > .section-row > .section-card > .section-card-buttom:hover{
+.section-one > .section-container > .section-row > .section-card > .section-card-buttom:hover{
     background-position-y: -35px;
 }
 
-.section > .section-container > .section-row > .section-card > a:hover{
+.section-one > .section-container > .section-row > .section-card > a:hover{
     color: #4f8db3;
     transition: 0.25s linear;
 }
@@ -310,7 +310,7 @@ header{
     box-shadow: inset 0 1px #fff, 0 1px 2px #7283BC;
 }
 
-.section > .section-container > .section-portal-buttom{
+.section-one > .section-container > .section-portal-buttom{
     margin-top: 10px;
     float: left;
     width: 227px;
@@ -318,7 +318,56 @@ header{
     background-image: url(./img/a-left.png) ;
     transition: 0.3s ease;
 }
-.section > .section-container > .section-portal-buttom:hover{
+.section-one > .section-container > .section-portal-buttom:hover{
     background-position-y: -35px;
 }
 
+
+
+/* ---- Section Two ---- */
+
+.section-two {
+    border: 1px solid black;
+    position: relative;
+    top: 230px;
+}
+.section-two > .sec-cont{
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid black;
+
+}
+
+.section-two > .sec-cont > .sec-card{
+    width: 50%;
+    border: 1px solid black;
+}
+.section-two > .sec-cont > .sec-card a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    line-height: 31px;
+}
+.section-two > .sec-cont > .sec-card a:hover{
+    text-decoration: underline;
+    color: #4f8db3;
+}
+.section-two > .sec-cont > .sec-card > .sec-title > a {
+    font-size: 14.3px;
+    color: #0060a6;
+    padding: 5px;
+    text-decoration: none;
+}
+.section-two > .sec-cont > .sec-card > .sec-lists{
+    display: flex;
+    padding-top: 5px;
+}
+.section-two > .sec-cont > .sec-card > .sec-lists > .sec-list{
+    padding-left: 5px;
+}
+.section-two > .sec-cont > .sec-card img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
