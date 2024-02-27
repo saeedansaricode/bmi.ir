@@ -423,9 +423,9 @@ header{
 .footer-container > .footer-lists > .footer-list {
     width: 25%;
 }
-
-.footer-container > .footer-lists > .footer-list ul{
+footer > .footer-container > .footer-lists > .footer-list li {
     text-decoration: none;
+    list-style: none;
 }
 .footer-container > .footer-lists > .footer-list > li a{
     text-decoration: none;
