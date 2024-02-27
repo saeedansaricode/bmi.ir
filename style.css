@@ -184,7 +184,65 @@ header{
     padding-right: 12px;
 }
 
+/* ---- Fixed Menu ---- */
 
+.fixed-menu{
+    width: 35px;
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 150px;
+    z-index: 1;
+}
+.fixed-menu > .fix-aparat{
+    transition: 0.3s;
+    background-color: #ea1d5d;
+    border-top-right-radius: 5px;
+}
+.fixed-menu > .fix-aparat:hover{
+    transition: 0.3s;
+    width: 50px;
+}
+.fixed-menu > .fix-bale {
+    transition: 0.3s;
+    background-color: #3b8290;
+}
+.fixed-menu > .fix-bale:hover{
+    transition: 0.3s;
+    width: 50px;
+}
+.fixed-menu > .fix-mail{
+    transition: 0.3s;
+    background-color: #f5be00;
+}
+.fixed-menu > .fix-mail:hover{
+    transition: 0.3s;
+    width: 50px;
+}
+.fixed-menu > .fix-arrow{
+    transition: 0.3s;
+    background-color: #7CB0A4;
+    border-bottom-right-radius: 5px;
+}
+.fixed-menu > .fix-arrow:hover{
+    transition: 0.3s;
+    width: 50px;
+}
+
+.fixed-menu > a {
+    width: 35px;
+    height: 35px;
+    color: white !important;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.fixed-menu > a > img {
+    width: 18px;
+    height: 18px;
+}
 
 /* ---- slide show ---- */
 
@@ -195,6 +253,7 @@ header{
     height: 400px;
     position: relative;
     border-bottom: 4px solid #286da0;
+    overflow: hidden;
 }
 .slideshow > #slider{
     width: 500%;
@@ -260,7 +319,7 @@ header{
     height: 253px;
     background-color: #428bca;
     position: relative;
-    top: 449px;
+    top: 249px;
 }
 
 
@@ -273,6 +332,8 @@ header{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -200px;
 }
 
 .cards-container > div {
@@ -310,7 +371,7 @@ header{
     background: url(./img/page-background.png);
     color: #222;
     position: relative;
-    top: 230px;
+    top: 50px;
 }
 
 .section-one > .section-container {
@@ -386,7 +447,7 @@ header{
 
 .section-two {
     position: relative;
-    top: 230px;
+    top: 80px;
 }
 .section-two > .sec-cont{
     width: 80%;
@@ -454,7 +515,7 @@ header{
 
 .section-orange{
     position: relative;
-    top: 230px;
+    top: 100px;
     height: 125px;
     background-color: #dc3c00;
 }
@@ -487,7 +548,7 @@ header{
     padding: 30px 0;
     background-image: url(./img/page-background.png);
     position: relative;
-    top: 230px;
+    top: 100px;
 }
 
 .footer-lists{
