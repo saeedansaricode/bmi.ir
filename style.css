@@ -135,7 +135,7 @@ header{
 .items:hover > .megamenu{
     width: 100%;
     height: 500px;
-
+    z-index: 1;
 }
 
 /* ---- header left bottom ---- */
@@ -193,8 +193,66 @@ header{
 .slideshow {
     width: 100%;
     height: 400px;
+    position: relative;
+    border-bottom: 4px solid #286da0;
 }
-
+.slideshow > #slider{
+    width: 500%;
+    transition: 0.5s;
+    position: relative;
+    left: 0%;
+}
+.slideshow > #slider > .slider-item {
+    width: 20%;
+    float: left;
+    height: 400px;
+}
+.slideshow > #slider > .slider-item > img {
+    width: 100%;
+    height: 100%;
+}
+.slideshow > #right{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 0, 0, 0.300));
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+.slideshow > #right:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 0, 0, 0.500));
+}
+.slideshow > #right > span{
+    background: url(./img/icons8-forward-48.png);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    right: 90px;
+}
+.slideshow > #left{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0, 0, 0, 0.300));
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.slideshow > #left:hover{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0, 0, 0, 0.500));
+}
+.slideshow > #left > span{
+    background: url(./img/icons8-forward-48\ \(1\).png);
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
 
 /* ---- blue line ---- */
 
@@ -340,7 +398,27 @@ header{
 
 .section-two > .sec-cont > .sec-card{
     width: 48%;
-    border: 1px solid black;
+}
+.section-two > .sec-cont > .sec-card > .biclass > .title-right > h2{
+    float: right;
+    color: #cc0000;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+.section-two > .sec-cont > .sec-card > .biclass > .title-left > p{
+    float: left;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.section-two > .sec-cont > .sec-card > .biclass > .title-left > a{
+    float: left;
+    color: #0000ff;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.section-two > .sec-cont > .sec-card >div > .img-table{
+    width: 95%;
+    height: 100%;
 }
 .section-two > .sec-cont > .sec-card a{
     font-size: 13px;
